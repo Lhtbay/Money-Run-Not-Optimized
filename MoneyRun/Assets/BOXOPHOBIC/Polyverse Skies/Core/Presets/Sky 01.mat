@@ -173,17 +173,20 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _BackgroundCat: 1
+    - _BackgroundCubemapSpace: 0
     - _BackgroundExposure: 1
     - _BackgroundMode: 0
+    - _Banner: 1
     - _BuiltInFog: 1
     - _BumpScale: 1
     - _CloudHeight: -0.185
     - _Clouds: 1
     - _CloudsCat: 1
-    - _CloudsHeight: 0.15
+    - _CloudsHeight: -0.04
     - _CloudsLitbySun: 0
     - _CloudsRotation: 0
-    - _CloudsRotationSpeed: 1
+    - _CloudsRotationSpeed: 2
     - _ColorsCat: 1
     - _Contrast: 2
     - _Contrsat: 1
@@ -198,6 +201,7 @@ Material:
     - _EnableClouds: 1
     - _EnableCloudsRotation: 1
     - _EnableDirectionLight: 0
+    - _EnableFogMessage: 0
     - _EnableMoon: 0
     - _EnablePattern: 1
     - _EnablePatternOverlay: 1
@@ -238,7 +242,7 @@ Material:
     - _Mode: 0
     - _MoonCat: 1
     - _MoonIntensity: 1
-    - _MoonSize: 0.5
+    - _MoonSize: 0.74
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _PatternCat: 1
@@ -249,6 +253,8 @@ Material:
     - _RotationSpeed: 0.5
     - _SkyPatternContrast: 0.99
     - _SkyPatternOverlay: 1
+    - _SkyboxCat: 1
+    - _SkyboxRotation: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -257,7 +263,7 @@ Material:
     - _StarsAmount: 3
     - _StarsCat: 1
     - _StarsFlikerContrast: 1
-    - _StarsHeightMask: 0.1
+    - _StarsHeightMask: 0
     - _StarsHeigntMask: 1
     - _StarsHorizonMask: 1
     - _StarsIntensity: 5
@@ -265,7 +271,7 @@ Material:
     - _StarsMaskPower: 1
     - _StarsRotation: 360
     - _StarsRotationSpeed: 0.5
-    - _StarsSize: 0.6
+    - _StarsSize: 0.57
     - _StarsSunMask: 0.01
     - _SunCat: 1
     - _SunIntensity: 2
@@ -275,8 +281,8 @@ Material:
     - _SunorMoon: 1
     - _TITLE: 1
     - _ToggleSwitch0: 0
-    - _TwinklingContrast: 1
-    - _TwinklingSpeed: 0.05
+    - _TwinklingContrast: 0.77
+    - _TwinklingSpeed: 0.1
     - _TwinklingTextureContrast: 1
     - _UVSec: 0
     - _UseCUBEMAP: 1
@@ -310,6 +316,7 @@ Material:
     - _MoonColor: {r: 1, g: 1, b: 1, a: 1}
     - _Sky: {r: 0.6691177, g: 0.29519898, b: 0.29519898, a: 0}
     - _SkyColor: {r: 0, g: 0.08650014, b: 0.53676474, a: 1}
+    - _SkyboxRotationAxis: {r: 0, g: 1, b: 0, a: 0}
     - _Skycol: {r: 0.27941146, g: 0.64219046, b: 1, a: 0}
     - _SunColor: {r: 0.5514706, g: 0.8515212, b: 1, a: 1}
     - _Tint: {r: 1, g: 1, b: 1, a: 0}
